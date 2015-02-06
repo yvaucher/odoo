@@ -23,6 +23,7 @@
     'category': 'Localization',
     'author': 'OpenERP SA',
     'website':'http://www.openerp.com',
+    'license': 'AGPL-3',
     'depends': ['hr_payroll'],
     'version': '1.0',
     'description': """

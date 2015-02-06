@@ -31,6 +31,7 @@ Allow users to login through OpenID.
     'author': 'OpenERP s.a.',
     'maintainer': 'OpenERP s.a.',
     'website': 'https://www.odoo.com',
+    'license': 'AGPL-3',
     'depends': ['base', 'web'],
     'data': [
         'res_users.xml',

@@ -28,6 +28,7 @@
         Test
         """,
     'author': 'OpenERP SA',
+    'license': 'AGPL-3',
     'depends': ['website'],
     'data': [
         'test.xml',

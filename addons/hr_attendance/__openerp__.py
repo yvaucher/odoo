@@ -33,6 +33,7 @@ actions(Sign in/Sign out) performed by them.
        """,
     'author': 'OpenERP SA',
     'website': 'https://www.odoo.com/page/employees',
+    'license': 'AGPL-3',
     'depends': ['hr', 'report'],
     'data': [
         'security/ir_rule.xml',

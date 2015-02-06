@@ -45,6 +45,7 @@ The validation can be configured in the company:
     """,
     'author': 'OpenERP SA',
     'website': 'https://www.odoo.com/page/employees',
+    'license': 'AGPL-3',
     'depends': ['hr_timesheet', 'hr_timesheet_invoice'],
     'data': [
         'security/ir.model.access.csv',

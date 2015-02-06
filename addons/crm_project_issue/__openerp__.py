@@ -6,6 +6,7 @@
     'category': 'Project Management',
     'complexity': 'easy',
     'author': 'OpenERP SA',
+    'license': 'AGPL-3',
     'description': """
 Lead to Issues
 ==============

@@ -9,6 +9,7 @@ OpenERP Mail Group : Mailing List Archives
 
         """,
     'author': 'OpenERP SA',
+    'license': 'AGPL-3',
     'depends': ['website_mail'],
     'data': [
         'views/website_mail_group.xml',

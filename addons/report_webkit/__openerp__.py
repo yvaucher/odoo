@@ -81,6 +81,7 @@ TODO:
     'version': '0.9',
     'depends': ['base','report'],
     'author': 'Camptocamp',
+    'license': 'AGPL-3',
     'category': 'Reporting', # i.e a technical module, not shown in Application install menu
     'url': 'http://http://www.camptocamp.com/',
     'data': [ 'security/ir.model.access.csv',

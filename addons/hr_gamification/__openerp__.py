@@ -24,6 +24,7 @@
     'author': 'OpenERP SA',
     'category': 'hidden',
     'website': 'https://www.odoo.com/page/employees',
+    'license': 'AGPL-3',
     'depends': ['gamification', 'hr'],
     'description': """Use the HR ressources for the gamification process.
 

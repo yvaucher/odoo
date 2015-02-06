@@ -3,6 +3,7 @@
     'version': '1.0',
     'summary': 'This module allow to specify a campaign, a source and a channel for a mass mailing campaign.',
     'author': 'OpenERP SA',
+    'license': 'AGPL-3',
     'description': """
 Mass Mailing with Crm Marketing
 ================================

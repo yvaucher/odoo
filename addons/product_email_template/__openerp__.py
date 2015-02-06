@@ -13,6 +13,7 @@ With this module, link your products to a template to send complete information 
 For instance when invoicing a training, the training agenda and materials will automatically be sent to your customers.'
     """,
     'website': 'https://www.odoo.com',
+    'license': 'AGPL-3',
     'demo': [
         'data/product_demo.xml',
     ],

@@ -31,6 +31,7 @@ with a single statement.
     """,
     'author': 'OpenERP SA',
     'website': 'https://www.odoo.com',
+    'license': 'AGPL-3',
     'depends': ['base'],
     'data': ['base_iban_data.xml' , 'base_iban_view.xml'],
     'installable': True,

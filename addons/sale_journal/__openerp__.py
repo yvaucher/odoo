@@ -50,6 +50,7 @@ Some statistics by journals are provided.
     """,
     'author': 'OpenERP SA',
     'website': 'https://www.odoo.com/page/billing',
+    'license': 'AGPL-3',
     'depends': ['sale_stock'],
     'data': [
         'security/ir.model.access.csv',

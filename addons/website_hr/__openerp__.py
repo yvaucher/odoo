@@ -9,6 +9,7 @@ Our Team Page
 
         """,
     'author': 'OpenERP SA',
+    'license': 'AGPL-3',
     'depends': ['website', 'hr'],
     'demo': [
         'data/website_hr_demo.xml',

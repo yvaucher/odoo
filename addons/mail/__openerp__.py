@@ -45,6 +45,7 @@ Main Features
     """,
     'author': 'OpenERP SA',
     'website': 'https://www.odoo.com/page/enterprise-social-network',
+    'license': 'AGPL-3',
     'depends': ['base', 'base_setup'],
     'data': [
         'wizard/invite_view.xml',

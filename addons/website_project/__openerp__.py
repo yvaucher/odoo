@@ -10,6 +10,7 @@ OpenERP Projects
 
         """,
     'author': 'OpenERP SA',
+    'license': 'AGPL-3',
     'depends': ['website_mail', 'project'],
     'data': [
         'views/website_project.xml',

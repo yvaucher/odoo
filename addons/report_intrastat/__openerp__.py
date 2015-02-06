@@ -31,6 +31,7 @@ This module gives the details of the goods traded between the countries of
 European Union.""",
     'author': 'OpenERP SA',
     'website': 'http://www.openerp.com',
+    'license': 'AGPL-3',
     'depends': ['base', 'product', 'stock', 'sale', 'purchase'],
     'data': [
         'security/ir.model.access.csv',

@@ -24,6 +24,7 @@
     'version': '1.1',
     'author': 'OpenERP SA',
     'website': 'https://www.odoo.com/page/project-management',
+    'license': 'AGPL-3',
     'category': 'Project Management',
     'sequence': 8,
     'summary': 'Projects, Tasks',

@@ -26,6 +26,7 @@
     'category': 'Human Resources',
     'sequence': 21,
     'website': 'https://www.odoo.com',
+    'license': 'AGPL-3',
     'summary': 'Jobs, Departments, Employees Details',
     'description': """
 Human Resources Management
@@ -42,6 +43,7 @@ You can manage:
     """,
     'author': 'OpenERP SA',
     'website': 'https://www.odoo.com/page/employees',
+    'license': 'AGPL-3',
     'depends': ['base_setup','mail', 'resource', 'board'],
     'data': [
         'security/hr_security.xml',

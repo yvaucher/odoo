@@ -24,6 +24,7 @@
     'version': '1.0',
     'author': 'conexus.at',
     'website': 'http://www.conexus.at',
+    'license': 'AGPL-3',
     'category': 'Localization/Account Charts',
     'depends': ['account_chart', 'base_vat'],
     'description': """

@@ -58,6 +58,7 @@ https://github.com/OCA/l10n-switzerland
  'author': 'Camptocamp',
  'category': 'Localization/Account Charts',
  'website': 'http://www.camptocamp.com',
+ 'license': 'AGPL-3',
  'depends': ['account', 'l10n_multilang'],
  'data': ['report/balance_sheet.xml',
           'report/profit_and_loss.xml',

@@ -50,6 +50,7 @@ The RIB and IBAN codes for a single account can be entered by recording two Bank
 Accounts in OpenERP: the first with the type 'RIB', the second with the type 'IBAN'. 
 """,
     'author' : u'Numérigraphe SARL',
+    'license': 'AGPL-3',
     'depends': ['account', 'base_iban'],
     'data': ['bank_data.xml', 'bank_view.xml'],
     'installable': True,

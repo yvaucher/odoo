@@ -44,6 +44,7 @@ You can choose flexible invoicing methods:
 """,
     'author': 'OpenERP SA',
     'website': 'https://www.odoo.com/page/warehouse',
+    'license': 'AGPL-3',
     'depends': ['sale', 'stock_account'],
     'data': [
         'security/sale_stock_security.xml',

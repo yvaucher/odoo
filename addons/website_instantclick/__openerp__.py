@@ -9,6 +9,7 @@ Preloads data on anonymous mode of website
 
         """,
     'author': 'OpenERP SA',
+    'license': 'AGPL-3',
     'depends': ['website'],
     'installable': True,
     'data': [

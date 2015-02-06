@@ -2,6 +2,7 @@
     'name': 'Resellers',
     'category': 'Website',
     'website': 'https://www.odoo.com/page/website-builder',
+    'license': 'AGPL-3',
     'summary': 'Publish Your Channel of Resellers',
     'version': '1.0',
     'description': """

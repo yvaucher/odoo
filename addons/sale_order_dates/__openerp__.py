@@ -36,6 +36,7 @@ You can add the following additional dates to a sales order:
 """,
     'author': 'OpenERP SA',
     'website': 'https://www.odoo.com/page/crm',
+    'license': 'AGPL-3',
     'depends': ['sale_stock'],
     'data': ['sale_order_dates_view.xml'],
     'demo': [],

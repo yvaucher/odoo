@@ -28,6 +28,7 @@ Generates Intrastat XML report for declaration
 Based on invoices.
     """,
     'author': 'Odoo SA',
+    'license': 'AGPL-3',
     'depends': ['report_intrastat', 'sale_stock', 'account_accountant', 'l10n_be'],
     'data': [
         'data/regions.xml',

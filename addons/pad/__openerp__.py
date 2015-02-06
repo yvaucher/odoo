@@ -12,6 +12,7 @@ pads (by default, http://ietherpad.com/).
     """,
     'author': 'OpenERP SA',
     'website': 'https://www.odoo.com/page/notes',
+    'license': 'AGPL-3',
     'depends': ['web'],
     'data': [
         'res_company.xml',

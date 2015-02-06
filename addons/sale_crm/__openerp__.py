@@ -36,6 +36,7 @@ modules.
     """,
     'author': 'OpenERP SA',
     'website': 'https://www.odoo.com/page/crm',
+    'license': 'AGPL-3',
     'depends': ['sale', 'crm', 'web_kanban_gauge'],
     'data': [
         'wizard/crm_make_sale_view.xml',

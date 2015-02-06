@@ -30,6 +30,7 @@ This module adds project menu and features (tasks) to your portal if project and
 ======================================================================================================
     """,
     'author': 'OpenERP SA',
+    'license': 'AGPL-3',
     'depends': ['project', 'portal'],
     'data': [
         'security/portal_security.xml',

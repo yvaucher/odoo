@@ -26,6 +26,7 @@
     'category': 'Marketing',
     'complexity': 'easy',
     'website': 'https://www.odoo.com/page/survey',
+    'license': 'AGPL-3',
     'description': """
 Survey - CRM (bridge module)
 =================================================================================

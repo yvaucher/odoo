@@ -23,6 +23,7 @@
     'author' : 'OpenERP SA',
     'category' : 'Specific Industry Applications',
     'website': 'https://www.odoo.com',
+    'license': 'AGPL-3',
     'depends' : ['stock'],
     'demo' : ['product_expiry_demo.xml'],
     'description': """

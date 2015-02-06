@@ -25,6 +25,7 @@
     'author' : 'OpenERP SA',
     #'description': < auto-loaded from README file
     'website' : 'https://www.odoo.com',
+    'license': 'AGPL-3',
     'category' : 'Authentication',
     'data' : [
         'users_ldap_view.xml',

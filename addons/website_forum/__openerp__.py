@@ -29,6 +29,7 @@ Ask questions, get answers, no distractions
         """,
     'author': 'OpenERP SA',
     'website': 'https://www.odoo.com/page/community-builder',
+    'license': 'AGPL-3',
     'depends': [
         'auth_signup',
         'gamification',

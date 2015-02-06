@@ -31,6 +31,7 @@ Using this module you will be able to link analytic accounts to sales orders.
     """,
     'author': 'OpenERP SA',
     'website': 'https://www.odoo.com/page/crm',
+    'license': 'AGPL-3',
     'depends': ['sale', 'account_analytic_plans'],
     'data': ['sale_analytic_plans_view.xml'],
     'demo': [],

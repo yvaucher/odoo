@@ -33,6 +33,7 @@ Shows you a list of applications features to install from.
     """,
     'author': 'OpenERP SA',
     'website': 'https://www.odoo.com',
+    'license': 'AGPL-3',
     'depends': ['base', 'web_kanban'],
     'data': [
         'security/ir.model.access.csv',

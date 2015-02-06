@@ -42,6 +42,7 @@ This module manages:
     'category': 'Accounting & Finance',
     'sequence': 4,
     'website' : 'https://www.odoo.com/page/billing',
+    'license': 'AGPL-3',
     'depends' : ['account'],
     'demo' : [],
     'data' : [

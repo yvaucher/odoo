@@ -25,6 +25,7 @@
     'author' : 'OpenERP SA',
     'category' : 'Hidden/Dependency',
     'website' : 'http://www.openerp.com',
+    'license': 'AGPL-3',
     'description': """
 Module for resource management.
 ===============================
@@ -35,6 +36,7 @@ associated to every resource. It also manages the leaves of every resource.
     """,
     'author': 'OpenERP SA',
     'website': 'http://www.openerp.com',
+    'license': 'AGPL-3',
     'depends': ['base'],
     'data': [
         'security/ir.model.access.csv',

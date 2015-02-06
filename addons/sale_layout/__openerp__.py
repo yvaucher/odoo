@@ -32,6 +32,7 @@ separators, page-breaks or subtotals.
     """,
     'author': 'OpenERP SA',
     'website': 'https://www.odoo.com/page/crm',
+    'license': 'AGPL-3',
     'depends': ['sale', 'report'],
     'category': 'Sale',
     'data': ['views/sale_layout_category_view.xml',

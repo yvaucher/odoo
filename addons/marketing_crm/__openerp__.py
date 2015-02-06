@@ -10,6 +10,7 @@
 Bridge module between marketing and CRM
     """,
     'website': 'https://www.odoo.com/page/crm',
+    'license': 'AGPL-3',
     'data': [
         'views/crm.xml',
         'views/res_config.xml',

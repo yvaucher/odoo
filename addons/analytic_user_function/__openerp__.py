@@ -39,6 +39,7 @@ compatible with older configurations.
     """,
     'author': 'OpenERP SA',
     'website': 'https://www.odoo.com/page/employees',
+    'license': 'AGPL-3',
     'depends': ['hr_timesheet_sheet'],
     'data': ['analytic_user_function_view.xml', 'security/ir.model.access.csv'],
     'demo': [],

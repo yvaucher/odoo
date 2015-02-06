@@ -23,6 +23,7 @@
     'name': 'Suppliers Payment Management',
     'version': '1.1',
     'author': 'OpenERP SA',
+    'license': 'AGPL-3',
     'category': 'Accounting & Finance',
     'description': """
 Module to manage the payment of your supplier invoices.

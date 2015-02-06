@@ -42,6 +42,7 @@ sale discount to a customer.
     ],
     'installable': True,
     'website': 'https://www.odoo.com/page/point-of-sale',
+    'license': 'AGPL-3',
     'auto_install': False,
 }
 

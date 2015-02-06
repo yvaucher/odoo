@@ -48,6 +48,7 @@ Three reports are available:
 """,
     'author': 'OpenERP SA',
     'website': 'https://www.odoo.com/page/accounting',
+    'license': 'AGPL-3',
     'depends': ['account'],
     'data': [
         'security/ir.model.access.csv',

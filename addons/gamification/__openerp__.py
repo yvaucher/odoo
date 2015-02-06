@@ -24,6 +24,7 @@
     'author': 'OpenERP SA',
     'category': 'Human Resources',
     'website' : 'https://www.odoo.com/page/gamification',
+    'license': 'AGPL-3',
     'depends': ['mail', 'email_template', 'web_kanban_gauge'],
     'description': """
 Gamification process

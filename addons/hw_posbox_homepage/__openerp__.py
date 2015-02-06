@@ -26,6 +26,7 @@
     'category': 'Hardware Drivers',
     'sequence': 6,
     'website': 'https://www.odoo.com/page/point-of-sale',
+    'license': 'AGPL-3',
     'summary': 'A homepage for the PosBox',
     'description': """
 PosBox Homepage

@@ -3,6 +3,7 @@
     'category': 'Website',
     'summary': 'Sell Your Products Online',
     'website': 'https://www.odoo.com/page/e-commerce',
+    'license': 'AGPL-3',
     'version': '1.0',
     'description': """
 OpenERP E-Commerce
@@ -11,6 +12,7 @@ OpenERP E-Commerce
         """,
     'author': 'OpenERP SA',
     'depends': ['website', 'sale', 'payment'],
+    'license': 'AGPL-3',
     'data': [
         'data/data.xml',
         'views/views.xml',

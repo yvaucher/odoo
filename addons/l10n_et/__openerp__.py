@@ -35,6 +35,7 @@ This is the latest Ethiopian OpenERP localization and consists of:
     """,
     'author':'Michael Telahun Makonnen <mmakonnen@gmail.com>',
     'website':'http://miketelahun.wordpress.com',
+    'license': 'AGPL-3',
     'depends': [
         'base_vat',
         'account_chart',

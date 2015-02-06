@@ -26,6 +26,7 @@
     'version': '0.011',
     'author': 'ThinkOpen Solutions',
     'website': 'http://www.thinkopensolutions.com/',
+    'license': 'AGPL-3',
     'category': 'Localization/Account Charts',
     'description': 'Plano de contas SNC para Portugal',
     'depends': ['base',

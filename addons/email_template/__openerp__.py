@@ -25,6 +25,7 @@
     'version' : '1.1',
     'author' : 'OpenERP SA',
     'website' : 'https://www.odoo.com/page/mailing',
+    'license': 'AGPL-3',
     'category' : 'Marketing',
     'depends' : ['mail'],
     'description': """

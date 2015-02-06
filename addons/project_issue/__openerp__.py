@@ -35,6 +35,7 @@ It allows the manager to quickly check the issues, assign them and decide on the
     """,
     'author': 'OpenERP SA',
     'website': 'https://www.odoo.com/page/project-management',
+    'license': 'AGPL-3',
     'depends': [
         'sales_team',
         'project',

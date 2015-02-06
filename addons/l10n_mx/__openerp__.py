@@ -26,6 +26,7 @@
     "name" : "Mexico - Accounting",
     "version" : "2.0",
     "author" : "Vauxoo",
+    "license": "AGPL-3",
     "category" : "Localization/Account Charts",
     "description": """
 Minimal accounting configuration for Mexico.

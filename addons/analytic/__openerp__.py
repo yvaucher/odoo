@@ -24,6 +24,7 @@
     'version': '1.1',
     'author' : 'OpenERP SA',
     'website' : 'https://www.odoo.com/page/accounting',
+    'license': 'AGPL-3',
     'category': 'Hidden/Dependency',
     'depends' : ['base', 'decimal_precision', 'mail'],
     'description': """

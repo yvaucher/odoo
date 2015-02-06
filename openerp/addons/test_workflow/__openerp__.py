@@ -7,6 +7,7 @@
     'author': 'OpenERP SA',
     'maintainer': 'OpenERP SA',
     'website': 'http://www.openerp.com',
+    'license': 'AGPL-3',
     'depends': ['base'],
     'data': ['data.xml', 'ir.model.access.csv'],
     'installable': True,

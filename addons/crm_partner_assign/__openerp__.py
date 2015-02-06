@@ -34,6 +34,7 @@ Once the coordinates of the Lead/Opportunity is known, they can be automatically
 to an appropriate local partner, based on the distance and the weight that was assigned to the partner.
     """,
     'author': 'OpenERP SA',
+    'license': 'AGPL-3',
     'depends': ['base_geolocalize', 'crm', 'account', 'portal'],
     'data': [
         'security/ir.model.access.csv',

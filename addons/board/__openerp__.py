@@ -31,6 +31,7 @@ Lets the user create a custom dashboard.
 Allows users to create custom dashboard.
     """,
     'author': 'OpenERP SA',
+    'license': 'AGPL-3',
     'depends': ['base', 'web'],
     'data': [
         'security/ir.model.access.csv',

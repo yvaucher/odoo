@@ -30,6 +30,7 @@
     'version': '1.1',
     'author': 'OpenERP SA',
     'website': 'http://www.openerp.com',
+    'license': 'AGPL-3',
     'category': 'Localization/Account Charts',
     'description': """
 This is the module to manage the accounting chart for France in OpenERP.

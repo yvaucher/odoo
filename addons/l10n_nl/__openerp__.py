@@ -117,6 +117,7 @@ De extra cijfers worden dan achter het rekeningnummer aangevult met 'nullen'.
     """,
     'author'  : 'Veritos - Jan Verlaan',
     'website' : 'http://www.veritos.nl',
+    'license': 'AGPL-3',
     'depends' : ['account',
                  'base_vat',
                  'base_iban',

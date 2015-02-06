@@ -33,6 +33,7 @@ Generic Payroll system Integrated with Accounting.
     """,
     'author':'OpenERP SA',
     'website': 'https://www.odoo.com/page/employees',
+    'license': 'AGPL-3',
     'depends': [
         'hr_payroll',
         'account',

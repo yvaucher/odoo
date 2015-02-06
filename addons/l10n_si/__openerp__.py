@@ -24,6 +24,7 @@
     "version" : "1.2",
     "author" : "Mentis d.o.o.",
     "website" : "http://www.mentis.si",
+    "license": "AGPL-3",
     "category" : "Localization/Account Charts",
     "description" : " ",
     "depends" : ["account", "base_iban", "base_vat", "account_chart", "account_cancel"],

@@ -36,6 +36,7 @@ This is the base module to manage the accounting chart for Luxembourg.
     * default fiscal position for local, intracom, extracom """,
     'author': 'OpenERP SA & ADN',
     'website': 'http://www.openerp.com http://www.adn-luxembourg.com',
+    'license': 'AGPL-3',
     'depends': ['account', 'base_vat', 'base_iban'],
     'data': [
         # basic accounting data

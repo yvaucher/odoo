@@ -22,6 +22,7 @@
     'name': 'French Payroll',
     'category': 'Localization/Payroll',
     'author': 'Yannick Buron (SYNERPGY)',
+    'license': 'AGPL-3',
     'depends': ['hr_payroll', 'l10n_fr'],
     'version': '1.0',
     'description': """

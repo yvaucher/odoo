@@ -28,6 +28,7 @@
 Documentation based on question and pertinent answers of Forum
         """,
     'author': 'OpenERP SA',
+    'license': 'AGPL-3',
     'depends': [
         'website_forum'
     ],

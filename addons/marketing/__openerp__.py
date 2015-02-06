@@ -13,6 +13,7 @@ Menu for Marketing.
 Contains the installer for marketing-related modules.
     """,
     'website': 'https://www.odoo.com/page/mailing',
+    'license': 'AGPL-3',
     'data': [
         'security/marketing_security.xml',
         'marketing_view.xml',

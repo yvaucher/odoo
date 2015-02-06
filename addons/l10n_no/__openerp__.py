@@ -23,6 +23,7 @@
     "name" : "Norway - Chart of Accounts",
     "version" : "1.0",
     "author" : "Rolv Råen",
+    "license": "AGPL-3",
     "category" : "Localization/Account Charts",
     "description": "This is the module to manage the accounting chart for Norway in Open ERP.",
     "depends" : ["account", "base_iban", "base_vat", "account_chart"],

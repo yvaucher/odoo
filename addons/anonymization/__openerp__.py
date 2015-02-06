@@ -39,6 +39,7 @@ anonymization process to recover your previous data.
     """,
     'author': 'OpenERP SA',
     'website': 'https://www.odoo.com',
+    'license': 'AGPL-3',
     'depends': ['base'],
     'demo': ['anonymization_demo.xml'],
     'data': [

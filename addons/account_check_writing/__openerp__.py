@@ -28,6 +28,7 @@ Module for the Check Writing and Check Printing.
 ================================================
     """,
     'website': 'https://www.odoo.com/page/accounting',
+    'license': 'AGPL-3',
     'depends' : ['account_voucher'],
     'data': [
         'wizard/account_check_batch_printing_view.xml',

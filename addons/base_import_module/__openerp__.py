@@ -9,6 +9,7 @@ for customization purpose.
 """,
     'category': 'Uncategorized',
     'website': 'https://www.odoo.com',
+    'license': 'AGPL-3',
     'author': 'OpenERP SA',
     'depends': ['web'],
     'installable': True,

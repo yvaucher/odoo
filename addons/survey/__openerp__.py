@@ -36,7 +36,9 @@ sent mails with personal token for the invitation of the survey.
     'summary': 'Create surveys, collect answers and print statistics',
     'author': 'OpenERP SA',
     'website': 'https://www.odoo.com/page/survey',
+    'license': 'AGPL-3',
     'depends': ['email_template', 'mail', 'website', 'marketing'],
+    'license': 'AGPL-3',
     'data': [
         'security/survey_security.xml',
         'security/ir.model.access.csv',

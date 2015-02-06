@@ -34,6 +34,7 @@ Makes the Knowledge Application Configuration available from where you can insta
 document and Wiki based Hidden.
     """,
     'website': 'https://www.odoo.com',
+    'license': 'AGPL-3',
     'data': [
         'security/knowledge_security.xml',
         'security/ir.model.access.csv',

@@ -42,6 +42,7 @@ This is extremely useful for collaborative work, knowledge sharing,
 synchronization with other companies.
     """,
     'website': 'https://www.odoo.com',
+    'license': 'AGPL-3',
     'demo': ['share_demo.xml'],
     'data': [
         'security/share_security.xml',

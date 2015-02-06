@@ -6,6 +6,7 @@
     'category': 'Tools',
     'complexity': 'medium',
     'website': 'https://www.odoo.com/',
+    'license': 'AGPL-3',
     'description':
         """
 Odoo Live Support

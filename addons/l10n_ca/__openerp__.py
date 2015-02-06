@@ -23,6 +23,7 @@
     'version': '1.2',
     'author': 'Savoir-faire Linux',
     'website': 'http://www.savoirfairelinux.com',
+    'license': 'AGPL-3',
     'category': 'Localization/Account Charts',
     'description': """
 This is the module to manage the English and French - Canadian accounting chart in OpenERP.

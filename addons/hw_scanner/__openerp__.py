@@ -27,6 +27,7 @@
     'sequence': 6,
     'summary': 'Hardware Driver for Barcode Scanners',
     'website': 'https://www.odoo.com/page/point-of-sale',
+    'license': 'AGPL-3',
     'description': """
 Barcode Scanner Hardware Driver
 ================================

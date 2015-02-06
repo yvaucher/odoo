@@ -29,6 +29,7 @@ Allow users to sign up and reset their password
     'version': '1.0',
     'category': 'Authentication',
     'website': 'https://www.odoo.com',
+    'license': 'AGPL-3',
     'installable': True,
     'auto_install': True,
     'depends': [

@@ -23,6 +23,7 @@
     'version': '1.2',
     'author': 'OpenERP SA, Veritos',
     'website': 'https://www.odoo.com',
+    'license': 'AGPL-3',
     'description': """
 This module supports the Anglo-Saxon accounting methodology by changing the accounting logic with stock transactions.
 =====================================================================================================================

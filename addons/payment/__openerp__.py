@@ -7,6 +7,7 @@
     'version': '1.0',
     'description': """Payment Acquirer Base Module""",
     'author': 'OpenERP SA',
+    'license': 'AGPL-3',
     'depends': ['account'],
     'data': [
         'views/payment_acquirer.xml',

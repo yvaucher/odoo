@@ -23,6 +23,7 @@
     'author': 'OpenERP SA',
     'category': 'Purchase Management',
     'website': 'https://www.odoo.com/page/purchase',
+    'license': 'AGPL-3',
     'description': """
 This module allows you to manage your Purchase Requisition.
 ===========================================================

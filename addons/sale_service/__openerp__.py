@@ -48,6 +48,7 @@ completed.
 """,
     'author': 'OpenERP SA',
     'website': 'https://www.odoo.com/page/crm',
+    'license': 'AGPL-3',
     'depends': ['project', 'procurement', 'sale', 'procurement_jit'],
     'data': ['views/sale_service_view.xml'],
     'demo': ['demo/sale_service_demo.xml'],

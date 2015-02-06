@@ -83,6 +83,7 @@ Wizards provided by this module:
     'demo': [],
     'installable': True,
     'website': 'https://www.odoo.com/page/accounting',
+    'license': 'AGPL-3',
 }
 
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

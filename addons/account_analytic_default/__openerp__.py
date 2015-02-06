@@ -37,6 +37,7 @@ Allows to automatically select analytic accounts based on criterions:
     """,
     'author': 'OpenERP SA',
     'website': 'https://www.odoo.com/page/accounting',
+    'license': 'AGPL-3',
     'depends': ['sale_stock'],
     'data': [
         'security/ir.model.access.csv', 

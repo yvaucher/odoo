@@ -25,6 +25,7 @@
     'sequence': 110,
     'category': 'Managing vehicles and contracts',
     'website' : 'https://www.odoo.com/page/fleet',
+    'license': 'AGPL-3',
     'summary' : 'Vehicle, leasing, insurances, costs',
     'description' : """
 Vehicle, leasing, insurances, cost

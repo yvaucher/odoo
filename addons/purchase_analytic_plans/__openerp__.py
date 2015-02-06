@@ -33,6 +33,7 @@ on a supplier purchase order into several accounts and analytic plans.
     """,
     'author': 'OpenERP SA',
     'website': 'https://www.odoo.com/page/purchase',
+    'license': 'AGPL-3',
     'depends': ['purchase', 'account_analytic_plans'],
     'data': ['purchase_analytic_plans_view.xml'],
     'demo': [],

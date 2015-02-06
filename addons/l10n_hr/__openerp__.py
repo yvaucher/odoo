@@ -58,6 +58,7 @@ Izvori podataka:
     "author": "OpenERP Croatian Community",
     "category": 'Localization/Account Charts',
     "website": "https://code.launchpad.net/openobject-croatia",
+    "license": "AGPL-3",
 
     'depends': [
                 'account',

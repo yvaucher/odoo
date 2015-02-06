@@ -48,6 +48,7 @@ Dashboard for CRM will include:
 """,
     'author': 'OpenERP SA',
     'website': 'https://www.odoo.com/page/crm',
+    'license': 'AGPL-3',
     'depends': [
         'base_action_rule',
         'base_setup',

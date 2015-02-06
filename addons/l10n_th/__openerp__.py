@@ -31,6 +31,7 @@ Thai accounting chart and localization.
     """,
     'author': 'Almacom',
     'website': 'http://almacom.co.th/',
+    'license': 'AGPL-3',
     'depends': ['account_chart'],
     'data': [ 'account_data.xml' ],
     'installable': True,

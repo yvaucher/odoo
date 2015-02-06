@@ -3,6 +3,7 @@
     'category': 'Website',
     'version': '1.0',
     'website': 'https://www.odoo.com/page/e-commerce',
+    'license': 'AGPL-3',
     'description': """
 OpenERP E-Commerce
 ==================

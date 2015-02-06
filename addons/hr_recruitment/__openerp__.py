@@ -37,6 +37,7 @@ You can define the different phases of interviews and easily rate the applicant 
 """,
     'author': 'OpenERP SA',
     'website': 'https://www.odoo.com/page/recruitment',
+    'license': 'AGPL-3',
     'depends': [
         'decimal_precision',
         'hr',

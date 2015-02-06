@@ -32,6 +32,7 @@
           templates to target objects.
     """,
     'website': 'http://www.openerp.com',
+    'license': 'AGPL-3',
     'depends' : ['account'],
     'data': [],
     'demo': [],

@@ -24,6 +24,7 @@
     "version" : "1.0",
     "author" : "ERPsystems Solutions",
     "website": "http://www.erpsystems.ro",
+    "license": "AGPL-3",
     "category" : "Localization/Account Charts",
     "depends" : ['account','account_chart','base_vat'],
     "description": """

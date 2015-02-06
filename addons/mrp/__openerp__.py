@@ -25,6 +25,7 @@
     'version': '1.1',
     'author': 'OpenERP SA',
     'website': 'https://www.odoo.com/page/manufacturing',
+    'license': 'AGPL-3',
     'category': 'Manufacturing',
     'sequence': 18,
     'summary': 'Manufacturing Orders, Bill of Materials, Routing',

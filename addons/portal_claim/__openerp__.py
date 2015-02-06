@@ -30,6 +30,7 @@ This module adds claim menu and features to your portal if claim and portal are 
 ==========================================================================================
     """,
     'author': 'OpenERP SA',
+    'license': 'AGPL-3',
     'depends': ['crm_claim','portal'],
     'data': [
         'portal_claim_view.xml',

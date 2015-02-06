@@ -35,6 +35,7 @@ automatically new claims based on incoming emails.
     """,
     'author': 'OpenERP SA',
     'website': 'https://www.odoo.com',
+    'license': 'AGPL-3',
     'depends': ['crm'],
     'data': [
         'crm_claim_view.xml',

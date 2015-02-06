@@ -30,6 +30,7 @@ professional emails and reuse templates in a few clicks.
     'version': '2.0',
     'author': 'OpenERP',
     'website': 'https://www.odoo.com/page/mailing',
+    'license': 'AGPL-3',
     'category': 'Marketing',
     'depends': [
         'mail',

@@ -40,6 +40,7 @@ up a management by affair.
     """,
     'author': 'OpenERP SA',
     'website': 'https://www.odoo.com/page/employees',
+    'license': 'AGPL-3',
     'depends': ['account', 'hr', 'base', 'hr_attendance'],
     'data': [
         'security/ir.model.access.csv',

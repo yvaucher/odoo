@@ -5,6 +5,7 @@
     'category': 'Hidden',
     'summary': "Sell Your Event's Tickets",
     'website': 'https://www.odoo.com/page/events',
+    'license': 'AGPL-3',
     'version': '1.0',
     'description': """
 Online Event's Tickets

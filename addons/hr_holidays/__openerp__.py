@@ -28,6 +28,7 @@
     'sequence': 27,
     'summary': 'Holidays, Allocation and Leave Requests',
     'website': 'https://www.odoo.com/page/employees',
+    'license': 'AGPL-3',
     'description': """
 Manage leaves and allocation requests
 =====================================

@@ -42,6 +42,7 @@ the portal automatically adds it to the portal users, etc).  That feature is
 very handy when used in combination with the module 'share'.
     """,
     'website': 'https://www.odoo.com',
+    'license': 'AGPL-3',
     'data': [
         'portal_data.xml',
         'portal_view.xml',

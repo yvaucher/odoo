@@ -28,6 +28,7 @@ United States - Chart of accounts.
 ==================================
     """,
     'website': 'http://www.openerp.com',
+    'license': 'AGPL-3',
     'depends': ['account_chart', 'account_anglo_saxon'],
     'data': [
         'l10n_us_account_type.xml',

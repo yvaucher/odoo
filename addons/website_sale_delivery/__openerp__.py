@@ -3,6 +3,7 @@
     'category': 'Website',
     'summary': 'Add Delivery Costs to Online Sales',
     'website': 'https://www.odoo.com/page/e-commerce',
+    'license': 'AGPL-3',
     'version': '1.0',
     'description': """
 Delivery Costs

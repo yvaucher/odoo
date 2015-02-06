@@ -7,6 +7,7 @@ OpenERP Web Calendar view.
 
 """,
     'author': 'OpenERP SA, Valentino Lab (Kalysto)',
+    'license': 'AGPL-3',
     'version': '2.0',
     'depends': ['web'],
     'data' : [

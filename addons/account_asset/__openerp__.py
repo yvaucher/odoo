@@ -34,6 +34,7 @@ of the depreciation lines.
 
     """,
     'website': 'https://www.odoo.com/page/accounting',
+    'license': 'AGPL-3',
     'category': 'Accounting & Finance',
     'sequence': 32,
     'demo': [ 'account_asset_demo.xml'],

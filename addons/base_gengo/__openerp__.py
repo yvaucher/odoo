@@ -35,6 +35,7 @@ This wizard will activate the CRON job and the Scheduler and will start the auto
     """,
     'author': 'OpenERP SA',
     'website': 'https://www.odoo.com',
+    'license': 'AGPL-3',
     'depends': ['base'],
     'data': [
         'gengo_sync_schedular_data.xml',

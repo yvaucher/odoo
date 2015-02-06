@@ -23,10 +23,12 @@
     'name': 'Certified People',
     'category': 'Website',
     'website': 'https://www.odoo.com/page/website-builder',
+    'license': 'AGPL-3',
     'summary': 'Display your network of certified people on your website',
     'version': '1.0',
     'author': 'OpenERP S.A.',
     'depends': ['marketing', 'website'],
+    'license': 'AGPL-3',
     'description': """
     Display your network of certified people on your website
     """,

@@ -33,6 +33,7 @@ from sales order. It adds sales name and sales Reference on production order.
     """,
     'author': 'OpenERP SA',
     'website': 'https://www.odoo.com/page/manufacturing',
+    'license': 'AGPL-3',
     'depends': ['mrp', 'sale_stock'],
     'data': [
         'security/ir.model.access.csv',

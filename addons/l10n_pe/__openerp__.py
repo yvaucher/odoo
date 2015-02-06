@@ -31,6 +31,7 @@ SUNAT 2011 (PCGE 2010).
     """,
     'author': ['Cubic ERP'],
     'website': 'http://cubicERP.com',
+    'license': 'AGPL-3',
     'category': 'Localization/Account Charts',
     'depends': ['account_chart'],
     'data':[

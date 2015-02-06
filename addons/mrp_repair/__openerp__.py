@@ -40,6 +40,7 @@ The following topics should be covered by this module:
     'author': 'OpenERP SA',
     'depends': ['mrp', 'sale', 'account'],
     'website': 'https://www.odoo.com/page/manufacturing',
+    'license': 'AGPL-3',
     'data': [
         'security/ir.model.access.csv',
         'security/mrp_repair_security.xml',

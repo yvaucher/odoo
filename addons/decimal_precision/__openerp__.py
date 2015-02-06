@@ -28,6 +28,7 @@ Configure the price accuracy you need for different kinds of usage: accounting, 
 The decimal precision is configured per company.
 """,
     'author': 'OpenERP SA',
+    'license': 'AGPL-3',
     'version': '0.1',
     'depends': ['base'],
     'category' : 'Hidden/Dependency',

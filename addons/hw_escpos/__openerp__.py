@@ -26,6 +26,7 @@
     'category': 'Hardware Drivers',
     'sequence': 6,
     'website': 'https://www.odoo.com/page/point-of-sale',
+    'license': 'AGPL-3',
     'summary': 'Hardware Driver for ESC/POS Printers and Cashdrawers',
     'description': """
 ESC/POS Hardware Driver

@@ -7,6 +7,7 @@
     'version': '1.0',
     'description': """Transfer Payment Acquirer""",
     'author': 'OpenERP SA',
+    'license': 'AGPL-3',
     'depends': ['payment'],
     'data': [
         'views/transfer.xml',

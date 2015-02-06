@@ -33,6 +33,7 @@ wizard if the delivery is to be invoiced.
     """,
     'author': 'OpenERP SA',
     'website': 'https://www.odoo.com/page/warehouse',
+    'license': 'AGPL-3',
     'depends': ['delivery', 'stock'],
     'data': [],
     'demo': [],

@@ -22,6 +22,7 @@
     'name': 'Events Organisation',
     'version': '0.1',
     'website' : 'https://www.odoo.com/page/events',
+    'license': 'AGPL-3',
     'category': 'Tools',
     'summary': 'Trainings, Conferences, Meetings, Exhibitions, Registrations',
     'description': """

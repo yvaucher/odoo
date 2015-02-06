@@ -39,6 +39,7 @@ Dashboard / Reports for Warehouse Management includes:
 * Stock Inventory Value at given date (support dates in the past)
     """,
     'website': 'https://www.odoo.com/page/warehouse',
+    'license': 'AGPL-3',
     'depends': ['stock', 'account'],
     'category': 'Hidden',
     'sequence': 16,

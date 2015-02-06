@@ -9,6 +9,7 @@ OpenERP Contact Form
 
         """,
     'author': 'OpenERP SA',
+    'license': 'AGPL-3',
     'depends': ['website_partner', 'hr_recruitment', 'website_mail'],
     'data': [
         'security/ir.model.access.csv',

@@ -24,6 +24,7 @@
     'version': '1.0',
     'author': 'Tech Receptives',
     'website': 'http://www.techreceptives.com',
+    'license': 'AGPL-3',
     'category': 'Localization/Account Charts',
     'description': """
 Singapore accounting chart and localization.

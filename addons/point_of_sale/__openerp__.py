@@ -94,6 +94,7 @@ Main Features
     'application': True,
     'qweb': ['static/src/xml/pos.xml'],
     'website': 'https://www.odoo.com/page/point-of-sale',
+    'license': 'AGPL-3',
     'auto_install': False,
 }
 

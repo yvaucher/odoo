@@ -35,6 +35,7 @@ trigger an automatic reminder email.
     """,
     'author': 'OpenERP SA',
     'website': 'https://www.odoo.com',
+    'license': 'AGPL-3',
     'depends': ['base', 'resource', 'mail'],
     'data': [
         'base_action_rule_data.xml',

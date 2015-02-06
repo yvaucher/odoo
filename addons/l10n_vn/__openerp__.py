@@ -24,6 +24,7 @@
     "version" : "1.0",
     "author" : "General Solutions",
     'website': 'http://gscom.vn',
+    'license': 'AGPL-3',
     "category" : "Localization/Account Charts",
     "description": """
 This is the module to manage the accounting chart for Vietnam in OpenERP.

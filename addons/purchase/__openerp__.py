@@ -45,6 +45,7 @@ Dashboard / Reports for Purchase Management will include:
     """,
     'author': 'OpenERP SA',
     'website': 'https://www.odoo.com/page/purchase',
+    'license': 'AGPL-3',
     'depends': ['stock_account', 'report'],
     'data': [
         'security/purchase_security.xml',

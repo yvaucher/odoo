@@ -7,6 +7,7 @@
 Report
         """,
     'author': 'OpenERP SA',
+    'license': 'AGPL-3',
     'depends': ['base', 'web'],
     'data': [
         'views/layouts.xml',

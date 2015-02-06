@@ -35,6 +35,7 @@ and categorize your interventions with a channel and a priority level.
     """,
     'author': 'OpenERP SA',
     'website': 'https://www.odoo.com',
+    'license': 'AGPL-3',
     'depends': ['crm'],
     'data': [
         'crm_helpdesk_view.xml',

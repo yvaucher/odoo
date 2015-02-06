@@ -40,6 +40,7 @@ In that case, you can not use priorities any more on the different picking.
     """,
     'author': 'OpenERP SA',
     'website': 'https://www.odoo.com/page/manufacturing',
+    'license': 'AGPL-3',
     'depends': ['procurement'],
     'data': [],
     'demo': [],

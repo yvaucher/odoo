@@ -26,6 +26,7 @@
     'author': 'OpenERP',
     'category': 'Accounting & Finance',
     'website': 'https://www.odoo.com/page/accounting',
+    'license': 'AGPL-3',
     'description': """
 Asserts on accounting.
 ======================

@@ -39,6 +39,7 @@ were overlapping.
     """,
     'author': 'OpenERP SA',
     'website': 'https://www.odoo.com/page/crm',
+    'license': 'AGPL-3',
     'depends': ['base', 'crm'],
     'data': ['security/ir.model.access.csv', 'wizard/open_questionnaire_view.xml', 'crm_profiling_view.xml'],
     'demo': ['crm_profiling_demo.xml'],

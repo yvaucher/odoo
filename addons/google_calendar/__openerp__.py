@@ -30,6 +30,7 @@ The module adds the possibility to synchronize Google Calendar with OpenERP
 """,
     'author': 'OpenERP SA',
     'website': 'https://www.odoo.com/page/crm',
+    'license': 'AGPL-3',
     'depends': ['google_account', 'calendar'],
     'qweb': ['static/src/xml/*.xml'],
     'data': [

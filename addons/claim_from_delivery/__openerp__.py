@@ -21,6 +21,7 @@
     'name' : 'Claim on Deliveries',
     'version' : '1.0',
     'author' : 'OpenERP SA',
+    'license': 'AGPL-3',
     'category' : 'Warehouse Management',
     'depends' : ['base', 'crm_claim', 'stock'],
     'demo' : [],

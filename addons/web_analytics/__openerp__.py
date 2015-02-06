@@ -31,6 +31,7 @@ Collects web application usage with Google Analytics.
     """,
     'author': 'OpenERP SA',
     'website': 'https://www.odoo.com/page/website-builder',
+    'license': 'AGPL-3',
     'depends': ['web'],
     'data': [
         'views/web_analytics.xml',

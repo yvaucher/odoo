@@ -32,6 +32,7 @@ Translate you website in one click
     'author': 'OpenERP SA',
     'depends': [
         'website',
+    'license': 'AGPL-3',
         'base_gengo'
     ],
     'data': [

@@ -37,6 +37,7 @@ This is a complete document management system.
 """,
     'author': 'OpenERP SA',
     'website': 'https://www.odoo.com',
+    'license': 'AGPL-3',
     'depends': ['knowledge', 'mail'],
     'data': [
         'security/document_security.xml',

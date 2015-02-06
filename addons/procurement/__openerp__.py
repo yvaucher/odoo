@@ -25,6 +25,7 @@
     'version' : '1.0',
     'author' : 'OpenERP SA',
     'website': 'https://www.odoo.com/page/manufacturing',
+    'license': 'AGPL-3',
     'category' : 'Hidden/Dependency',
     'depends' : ['base', 'product'],
     'description': """

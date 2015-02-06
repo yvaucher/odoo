@@ -48,6 +48,7 @@ Processes like maintaining general ledgers are done through the defined Financia
 for a particular financial year and for preparation of vouchers there is a module named account_voucher.
     """,
     'website': 'https://www.odoo.com/page/billing',
+    'license': 'AGPL-3',
     'depends' : ['base_setup', 'product', 'analytic', 'board', 'edi', 'report'],
     'data': [
         'security/account_security.xml',

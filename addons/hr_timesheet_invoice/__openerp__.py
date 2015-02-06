@@ -34,6 +34,7 @@ You can define price lists in analytic account, make some theoretical revenue
 reports.""",
     'author': 'OpenERP SA',
     'website': 'https://www.odoo.com/page/employees',
+    'license': 'AGPL-3',
     'depends': ['account', 'hr_timesheet', 'report'],
     'data': [
         'security/ir.model.access.csv',

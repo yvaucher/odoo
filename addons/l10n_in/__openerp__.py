@@ -35,6 +35,7 @@ Note: The Schedule VI has been revised by MCA and is applicable for all Balance 
 Sheet, now only Vertical format has been permitted Which is Supported By OpenERP.
   """,
     'author': ['OpenERP SA'],
+    'license': 'AGPL-3',
     'category': 'Localization/Account Charts',
     'depends': [
         'account',

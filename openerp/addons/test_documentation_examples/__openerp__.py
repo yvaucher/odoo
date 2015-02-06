@@ -9,6 +9,7 @@
 
     'author': "Odoo",
     'website': "http://odoo.com",
+    'license': 'AGPL-3',
 
     'category': 'Tests',
     'version': '0.1',

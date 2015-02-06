@@ -37,6 +37,7 @@ Notes can be found in the 'Home' menu.
 """,
     'author': 'OpenERP SA',
     'website': 'https://www.odoo.com/page/notes',
+    'license': 'AGPL-3',
     'summary': 'Sticky notes, Collaborative, Memos',
     'sequence': 9,
     'depends': [

@@ -34,6 +34,7 @@ documentation at http://doc.openerp.com.
     """,
     'author': 'OpenERP SA',
     'website': 'https://www.odoo.com/page/api',
+    'license': 'AGPL-3',
     'depends': ['base', 'email_template'],
     'data' : [
         'views/edi.xml',

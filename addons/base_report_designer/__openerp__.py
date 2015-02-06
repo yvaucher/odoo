@@ -33,6 +33,7 @@ Once you have modified it you can upload the report using the same wizard.
 """,
     'author': 'OpenERP SA',
     'website': 'https://www.odoo.com',
+    'license': 'AGPL-3',
     'depends': ['base'],
     'data': ['wizard/base_report_design_view.xml' , 'base_report_designer_installer.xml'],
     'demo': [],

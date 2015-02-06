@@ -24,6 +24,7 @@
     'author': ['OpenERP SA', 'FS3'],
     'maintainer': 'OpenERP SA',
     'website': 'https://www.odoo.com',
+    'license': 'AGPL-3',
     'category': 'Tools',
     'description': """
 Encrypted passwords

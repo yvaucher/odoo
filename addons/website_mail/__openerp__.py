@@ -26,6 +26,7 @@
     'version': '0.1',
     'description': """Glue module holding mail improvements for website.""",
     'author': 'OpenERP SA',
+    'license': 'AGPL-3',
     'depends': ['website', 'mail', 'email_template'],
     'data': [
         'views/snippets.xml',

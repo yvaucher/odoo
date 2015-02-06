@@ -39,6 +39,7 @@ You can customize the following attributes of the sequence:
     """,
     'author': 'OpenERP SA',
     'website': 'https://www.odoo.com',
+    'license': 'AGPL-3',
     'depends': ['account'],
     'data': [
         'account_sequence_data.xml',

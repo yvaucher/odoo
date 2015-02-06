@@ -55,6 +55,7 @@ input segments, workflow.
       CRM Leads.
     """,
     'website': 'https://www.odoo.com/page/lead-automation',
+    'license': 'AGPL-3',
     'data': [
         'marketing_campaign_view.xml',
         'marketing_campaign_data.xml',

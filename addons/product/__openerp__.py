@@ -31,6 +31,7 @@
         'product_image_demo.xml',
     ],
     'website': 'https://www.odoo.com',
+    'license': 'AGPL-3',
     'description': """
 This is the base module for managing products and pricelists in OpenERP.
 ========================================================================

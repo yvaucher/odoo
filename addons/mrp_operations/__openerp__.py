@@ -54,6 +54,7 @@ So, that we can compare the theoretic delay and real delay.
     """,
     'author': 'OpenERP SA',
     'website': 'https://www.odoo.com/page/manufacturing',
+    'license': 'AGPL-3',
     'depends': ['mrp'],
     'data': [
         'security/ir.model.access.csv',

@@ -38,6 +38,7 @@ If you need to manage your meetings, you should install the CRM module.
     'author': 'OpenERP SA',
     'category': 'Hidden/Dependency',
     'website': 'https://www.odoo.com/page/crm',
+    'license': 'AGPL-3',
     'demo': ['calendar_demo.xml'],
     'data': [
         'calendar_cron.xml',

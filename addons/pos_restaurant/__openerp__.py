@@ -39,6 +39,7 @@ This module adds several restaurant features to the Point of Sale:
     'author': 'OpenERP SA',
     'depends': ['point_of_sale'],
     'website': 'https://www.odoo.com/page/point-of-sale',
+    'license': 'AGPL-3',
     'data': [
         'restaurant_view.xml',
         'security/ir.model.access.csv',

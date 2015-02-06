@@ -29,6 +29,7 @@ Plan contable boliviano e impuestos de acuerdo a disposiciones vigentes
     """,
     "author": "Cubic ERP",
     "website": "http://cubicERP.com",
+    "license": "AGPL-3",
     "category": "Localization/Account Charts",
     "depends": [
 			"account_chart",

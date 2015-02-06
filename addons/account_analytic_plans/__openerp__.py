@@ -64,6 +64,7 @@ The analytic plan validates the minimum and maximum percentage at the time of cr
         """,
     'author': 'OpenERP SA',
     'website': 'https://www.odoo.com/page/accounting',
+    'license': 'AGPL-3',
     'depends': ['account', 'account_analytic_default'],
     'data': [
         'security/account_analytic_plan_security.xml',

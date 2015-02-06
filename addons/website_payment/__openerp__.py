@@ -9,6 +9,7 @@
     'author': 'OpenERP SA',
     'depends': [
         'website',
+    'license': 'AGPL-3',
         'payment',
     ],
     'data': [

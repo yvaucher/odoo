@@ -3,6 +3,7 @@
     'category': 'Website',
     'summary': 'Send Professional Quotations',
     'website': 'https://www.odoo.com/page/quote-builder',
+    'license': 'AGPL-3',
     'version': '1.0',
     'description': """
 OpenERP Sale Quote Roller
@@ -11,6 +12,7 @@ OpenERP Sale Quote Roller
         """,
     'author': 'OpenERP SA',
     'depends': ['website','sale', 'mail'],
+    'license': 'AGPL-3',
     'data': [
         'views/website_quotation.xml',
         'views/website_quotation_backend.xml',

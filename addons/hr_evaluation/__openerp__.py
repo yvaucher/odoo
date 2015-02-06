@@ -26,6 +26,7 @@
     'category': 'Human Resources',
     'sequence': 31,
     'website': 'https://www.odoo.com/page/appraisal',
+    'license': 'AGPL-3',
     'summary': 'Periodical Evaluations, Appraisals, Surveys',
     'depends': ['hr', 'calendar', 'survey'],
     'description': """

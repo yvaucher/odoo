@@ -30,6 +30,7 @@
     'category': 'Localization/Account Charts',
     'description': 'Colombian Accounting and Tax Preconfiguration',
     'author': 'David Arnold BA HSG (devCO)',
+    'license': 'AGPL-3',
     'depends': [
         'account',
         'base_vat',

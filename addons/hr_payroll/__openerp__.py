@@ -40,6 +40,7 @@ Generic Payroll system.
     """,
     'author': 'OpenERP SA',
     'website': 'https://www.odoo.com/page/employees',
+    'license': 'AGPL-3',
     'depends': [
         'hr',
         'hr_contract',

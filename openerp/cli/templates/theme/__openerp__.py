@@ -6,6 +6,7 @@
     'category': 'Theme',
     'version': '1.0',
     'depends': ['website'],
+    'license': 'AGPL-3',
 
     # templates, pages, and snippets
     'data': [
@@ -17,4 +18,5 @@
     # Your information
     'author': "Your Company",
     'website': "",
+    'license': 'AGPL-3',
 }

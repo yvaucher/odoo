@@ -25,6 +25,7 @@
     'version': '1.0',
     'category': 'Sales Management',
     'website': 'https://www.odoo.com',
+    'license': 'AGPL-3',
     'description': """
 Adds a reporting menu in products that computes sales, purchases, margins and other interesting indicators based on invoices.
 =============================================================================================================================

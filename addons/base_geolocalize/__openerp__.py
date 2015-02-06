@@ -29,6 +29,7 @@ Partners geolocalization
 ========================
     """,
     'author': 'OpenERP SA',
+    'license': 'AGPL-3',
     'depends': ['crm'],
     'demo': [
     ],

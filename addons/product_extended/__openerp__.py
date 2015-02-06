@@ -23,6 +23,7 @@
     "version" : "1.0",
     "author" : "OpenERP S.A.",
     'website': 'https://www.odoo.com',
+    'license': 'AGPL-3',
     "depends" : ["product", "purchase", "sale", "mrp", "stock_account"],
     "category" : "Generic Modules/Inventory Control",
     "description": """

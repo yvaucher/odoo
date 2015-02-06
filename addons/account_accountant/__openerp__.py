@@ -33,6 +33,7 @@ It gives the Administrator user access to all accounting features such as journa
 It assigns manager and user access rights to the Administrator and only user rights to the Demo user. 
 """,
     'website': 'https://www.odoo.com/page/accounting',
+    'license': 'AGPL-3',
     'depends' : ['account_voucher'],
     'data': [
         'security/account_security.xml',

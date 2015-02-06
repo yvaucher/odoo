@@ -38,5 +38,6 @@ membership products (schemes).
     'installable': True,
     'auto_install': False,
     'website': 'https://www.odoo.com'
+    'license': 'AGPL-3',
 }
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

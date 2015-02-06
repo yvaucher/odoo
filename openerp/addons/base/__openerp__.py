@@ -32,6 +32,7 @@ The kernel of OpenERP, needed for all installation.
     'author': 'OpenERP SA',
     'maintainer': 'OpenERP SA',
     'website': 'http://www.openerp.com',
+    'license': 'AGPL-3',
     'depends': [],
     'data': [
         'base_data.xml',

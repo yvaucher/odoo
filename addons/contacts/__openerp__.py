@@ -29,6 +29,7 @@ You can track your suppliers, customers and other contacts.
 """,
     'author': 'OpenERP SA',
     'website': 'https://www.odoo.com/page/crm',
+    'license': 'AGPL-3',
     'summary': 'Contacts, People and Companies',
     'depends': [
         'mail',
