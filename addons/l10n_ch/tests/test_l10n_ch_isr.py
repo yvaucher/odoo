@@ -87,7 +87,6 @@ class ISRTest(AccountingTestCase):
         #Finally, we add bank coordinates to our account. The ISR should now be available to generate
         test_bank = self.env['res.bank'].create({
                 'name':'Money Drop',
-                'l10n_ch_postal_chf':'010391391'
         })
 
         test_account.bank_id = test_bank
