@@ -34,6 +34,7 @@ class ISRTest(AccountingTestCase):
         """ Generates a test res.partner.bank. """
         return self.env['res.partner.bank'].create({
             'acc_number': number,
+            'partner_id': self.env.ref("base.res_partner_2").id,
         })
 
     def print_isr(self, invoice):
