@@ -82,7 +82,7 @@ class ISRTest(AccountingTestCase):
         #Now we add an account for payment to our invoice, but still cannot generate the ISR
         test_account = self.create_account('250097798')
         invoice_1.partner_bank_id = test_account
-        self.isr_not_generated(invoice_1)
+        self.isr_generated(invoice_1)
 
         #Finally, we add bank coordinates to our account. The ISR should now be available to generate
         test_bank = self.env['res.bank'].create({

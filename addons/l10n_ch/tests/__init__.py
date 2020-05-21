@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
+from . import test_gen_isr_reference
 from . import test_l10n_ch_isr
 from . import test_l10n_ch_swissqr
