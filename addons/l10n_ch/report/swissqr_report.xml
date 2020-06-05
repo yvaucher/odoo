@@ -44,12 +44,7 @@
                             <span class="swissqr_text content" t-field="o.company_id.city"/><br/>
 
                             <span class="swissqr_text title">Reference</span><br/>
-                            <t t-if="o.partner_bank_id.currency_id.name == 'EUR'">
-                                <span class="swissqr_text content" t-field="o.partner_bank_id.bank_id.l10n_ch_postal_eur"/><br/>
-                            </t>
-                            <t t-if="o.partner_bank_id.currency_id.name == 'CHF'">
-                                <span class="swissqr_text content" t-field="o.partner_bank_id.bank_id.l10n_ch_postal_chf"/><br/>
-                            </t>
+                            <span class="swissqr_text content" t-esc="o.reference"/><br/>
 
                             <span class="swissqr_text title">Payable by</span><br/>
                             <span class="swissqr_text content" t-field="o.partner_id.name"/><br/>
@@ -90,15 +85,10 @@
                             <span class="swissqr_text content" t-field="o.company_id.city"/><br/>
 
                             <span class="swissqr_text title">Reference</span><br/>
-                            <t t-if="o.partner_bank_id.currency_id.name == 'EUR'">
-                                <span class="swissqr_text content" t-field="o.partner_bank_id.bank_id.l10n_ch_postal_eur"/><br/>
-                            </t>
-                            <t t-if="o.partner_bank_id.currency_id.name == 'CHF'">
-                                <span class="swissqr_text content" t-field="o.partner_bank_id.bank_id.l10n_ch_postal_chf"/><br/>
-                            </t>
+                            <span class="swissqr_text content" t-esc="o.reference"/><br/>
 
                             <span class="swissqr_text title">Additional information</span><br/>
-                            <span class="swissqr_text content" t-field="o.reference"/><br/>
+                            <span class="swissqr_text content" t-field="o.number"/><br/>
 
                             <span class="swissqr_text title">Payable by</span><br/>
                             <span class="swissqr_text content" t-field="o.partner_id.name"/><br/>
