@@ -175,7 +175,8 @@ class ResPartnerBank(models.Model):
         for this partner. Line 1 contains the street and number, line 2 contains
         zip and city. Those two lines are limited to 70 characters
         """
-        line_1 = (partner and partner.street or '') + ' ' + (partner and partner.street2 or '')
+        streets = [partner.street, partner.street2]
+        line_1 = ' '.join(filter(None, streets))
         line_2 = partner.zip + ' ' + partner.city
         return line_1[:70], line_2[:70]
 
@@ -214,7 +215,7 @@ class ResPartnerBank(models.Model):
             return partner.zip and \
                    partner.city and \
                    partner.country_id.code and \
-                   (self.partner_id.street or self.partner_id.street2)
+                   (partner.street or partner.street2)
 
         return _partner_fields_set(self.partner_id) and \
                _partner_fields_set(debtor_partner) and \
