@@ -180,8 +180,9 @@ class AccountInvoice(models.Model):
         # updated yet. Not doing that could crash when trying to send an invoice by mail,
         # as the QR report data haven't been loaded.
         # TODO: remove this in master
+        reference = self.l10n_ch_isr_number or self.reference
         return not self.env.ref('l10n_ch.l10n_ch_swissqr_template').inherit_id \
-               and self.partner_bank_id.validate_swiss_code_arguments(self.partner_bank_id.currency_id, self.partner_id, self.reference)
+               and self.partner_bank_id.validate_swiss_code_arguments(self.partner_bank_id.currency_id, self.partner_id, reference)
 
     def print_ch_qr_bill(self):
         """ Triggered by the 'Print QR-bill' button.
