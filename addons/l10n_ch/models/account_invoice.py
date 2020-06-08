@@ -80,16 +80,27 @@ class AccountInvoice(models.Model):
             return res
 
         for record in self:
-            if record.number and record.partner_bank_id and record.partner_bank_id.l10n_ch_postal:
-                invoice_issuer_ref = re.sub('^0*', '', record.partner_bank_id.l10n_ch_postal)
-                invoice_issuer_ref = invoice_issuer_ref.ljust(l10n_ch_ISR_NUMBER_ISSUER_LENGTH, '0')
-                invoice_ref = re.sub('[^\d]', '', record.number)
-                #We only keep the last digits of the sequence number if it is too long
-                invoice_ref = invoice_ref[-l10n_ch_ISR_NUMBER_ISSUER_LENGTH:]
-                internal_ref = invoice_ref.zfill(l10n_ch_ISR_NUMBER_LENGTH - l10n_ch_ISR_NUMBER_ISSUER_LENGTH - 1) # -1 for mod10r check character
+            if record.number and record.partner_bank_id:
+                if record.partner_bank_id._is_qr_iban():
+                    # FIXME what is in there doesn't take QR-IBAN into account
+                    # the generation can be simplified though as it shouldn't
+                    # require a l10n_ch_postal, which mean the reference is
+                    # free for us to only use  with the invoice number
+                    # Be also aware of the fixups in https://github.com/odoo/odoo/pull/51637
+                    record.l10n_ch_isr_number = "120000000000234478943216899"
+                    record.l10n_ch_isr_number_spaced = _space_isr_number(record.l10n_ch_isr_number)
 
-                record.l10n_ch_isr_number = mod10r(invoice_issuer_ref + internal_ref)
-                record.l10n_ch_isr_number_spaced = _space_isr_number(record.l10n_ch_isr_number)
+                elif record.partner_bank_id.l10n_ch_postal:
+
+                    invoice_issuer_ref = re.sub('^0*', '', record.partner_bank_id.l10n_ch_postal)
+                    invoice_issuer_ref = invoice_issuer_ref.ljust(l10n_ch_ISR_NUMBER_ISSUER_LENGTH, '0')
+                    invoice_ref = re.sub('[^\d]', '', record.number)
+                    #We only keep the last digits of the sequence number if it is too long
+                    invoice_ref = invoice_ref[-l10n_ch_ISR_NUMBER_ISSUER_LENGTH:]
+                    internal_ref = invoice_ref.zfill(l10n_ch_ISR_NUMBER_LENGTH - l10n_ch_ISR_NUMBER_ISSUER_LENGTH - 1) # -1 for mod10r check character
+
+                    record.l10n_ch_isr_number = mod10r(invoice_issuer_ref + internal_ref)
+                    record.l10n_ch_isr_number_spaced = _space_isr_number(record.l10n_ch_isr_number)
 
     @api.depends('currency_id.name', 'residual', 'partner_bank_id.bank_id', 'number', 'partner_bank_id.l10n_ch_postal', 'partner_bank_id.bank_id.l10n_ch_postal_eur', 'partner_bank_id.bank_id.l10n_ch_postal_chf')
     def _compute_l10n_ch_isr_optical_line(self):
