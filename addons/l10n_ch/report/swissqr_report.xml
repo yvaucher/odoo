@@ -42,6 +42,7 @@
                               <span class="title">Account/Payable to</span><br/>
                               <span class="content" t-field="o.invoice_partner_bank_id.acc_number"/><br/>
                               <span class="content" t-field="o.company_id.name"/><br/>
+                              <span class="content" t-field="o.company_id.street"/><br/>
                               <span class="content" t-field="o.company_id.country_id.code"/>
                               <span class="content" t-field="o.company_id.zip"/>
                               <span class="content" t-field="o.company_id.city"/><br/>
@@ -57,6 +58,8 @@
                             <div class="swissqr_text">
                                 <span class="title">Payable by</span><br/>
                                 <span class="content" t-field="o.partner_id.name"/><br/>
+                                <span class="content" t-field="o.partner_id.street"> </span>
+                                <span class="content" t-field="o.partner_id.street2"/><br/>
                                 <span class="content" t-field="o.partner_id.country_id.code"/>
                                 <span class="content" t-field="o.partner_id.zip"/>
                                 <span class="content" t-field="o.partner_id.city"/><br/>
