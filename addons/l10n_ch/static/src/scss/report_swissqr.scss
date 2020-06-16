@@ -61,27 +61,31 @@ body.l10n_ch_qr {
     }
 
     .swissqr_text {
-        font-family: OCR-B, Arial, Frutiger, Helvetica;
+        font-family: Arial, Frutiger, Helvetica;
         color: black;
+        line-height: 1;
+        padding-top: 1em;
+
+        .title {
+            font-size: 8pt;
+            font-weight: bold;
+            margin-top: 2mm;
+        }
+        .content {
+            font-size: 10pt;
+        }
+
     }
 
-    .swissqr_text.title {
-        font-size: 9pt;
-        font-weight: bold;
-    }
-
-    .swissqr_text.title.title_zone {
+    .main_title {
+        margin-top: 5mm;
         font-size: 11pt;
         font-weight: bold;
-    }
-
-    .swissqr_text.content {
-        font-size: 11pt;
     }
 
     .swissqr_column_left {
         position: absolute;
-        left: 12mm;
+        left: 5mm;
     }
 
     .swissqr_column_right {
@@ -94,10 +98,6 @@ body.l10n_ch_qr {
         top: 15mm;
     }
 
-    .title_zone {
-        top: 5mm;
-    }
-
     .indication_zone {
         top: 10mm;
     }
@@ -105,12 +105,11 @@ body.l10n_ch_qr {
     .amount_zone {
         position: absolute;
         top: 106mm;
-    }
 
-    .amount{
-        position: absolute;
-        left: 20mm;
-        top: 0;
+        .column {
+            margin-right: 5mm;
+            float: left;
+        }
     }
 
 }
