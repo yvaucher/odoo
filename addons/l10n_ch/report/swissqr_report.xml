@@ -107,15 +107,17 @@
                             <span class="swissqr_text title">Due date</span><br/>
                             <span class="swissqr_text content" t-field="o.invoice_date_due"/><br/>
 
-                            <div id="amount_zone" class="swissqr_column_left amount_zone">
-                                <span class="swissqr_text title">Currency</span><br/>
-                                <span class="swissqr_text content" t-field="o.currency_id.name"/>
-                            </div>
 
-                            <div class="amount_zone amount">
-                                <span class="swissqr_text title">Amount</span><br/>
-                                <span class="swissqr_text content" t-esc="formated_amount"/>
-                            </div>
+                        </div>
+                        <div id="amount_zone" class="swissqr_column_left amount_zone">
+                          <div>
+                            <span class="swissqr_text title">Currency</span><br/>
+                            <span class="swissqr_text content" t-field="o.currency_id.name"/>
+                          </div>
+                          <div class="amount">
+                              <span class="swissqr_text title">Amount</span><br/>
+                              <span class="swissqr_text content" t-esc="formated_amount"/>
+                          </div>
                         </div>
                     </div>
 
