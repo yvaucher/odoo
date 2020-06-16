@@ -33,11 +33,11 @@
                 <div class="swissqr_content">
 
                     <div class="swissqr_receipt" t-if="o.invoice_partner_bank_id.validate_swiss_code_arguments(o.invoice_partner_bank_id.currency_id, o.partner_id, o.invoice_payment_ref) and ((o.currency_id.name == 'EUR') or (o.currency_id.name == 'CHF'))">
-                        <div class="swissqr_column_left">
-                            <div class="main_title">
-                                <span>Receipt</span>
-                            </div>
+                        <div id="receipt_title_zone" class="main_title swissqr_column_left">
+                            <span>Receipt</span>
+                        </div>
 
+                        <div id="receipt_indication_zone" class="swissqr_column_left receipt_indication_zone">
                             <div class="swissqr_text">
                               <span class="title">Account/Payable to</span><br/>
                               <span class="content" t-field="o.invoice_partner_bank_id.acc_number"/><br/>
@@ -63,23 +63,30 @@
                                 <span class="content" t-field="o.partner_id.city"/><br/>
                             </div>
 
+                        </div>
+                        <div id="receipt_amount_zone" class="swissqr_column_left receipt_amount_zone">
                             <div class="swissqr_text">
-                                <span class="title">Amount</span><br/>
-                                <span class="content" t-esc="formated_amount"/>
-                                <span class="content" t-field="o.currency_id.name"/>
+                                <div class="column">
+                                    <span class="title">Currency</span><br/>
+                                    <span class="content" t-field="o.currency_id.name"/>
+                                </div>
+                                <div class="column">
+                                    <span class="title">Amount</span><br/>
+                                    <span class="content" t-esc="formated_amount"/>
+                                </div>
                             </div>
+                        </div>
 
-                            <div class="swissqr_text">
+                        <div id="receipt_acceptance_point_zone" class="receipt_acceptance_point_zone">
+                            <div class="swissqr_text content">
                                 <span class="title">Acceptance point</span>
                             </div>
                         </div>
                     </div>
 
                     <div class="swissqr_body" t-if="o.invoice_partner_bank_id.validate_swiss_code_arguments(o.invoice_partner_bank_id.currency_id, o.partner_id, o.invoice_payment_ref) and ((o.currency_id.name == 'EUR') or (o.currency_id.name == 'CHF'))">
-                        <div class="swissqr_column_left">
-                            <div class="main_title">
-                                <span>Payment Part</span>
-                            </div>
+                        <div class="main_title swissqr_column_left">
+                            <span>Payment Part</span>
                         </div>
 
                         <img class="swissqr" t-att-src="o.invoice_partner_bank_id.build_swiss_code_url(o.amount_residual, o.currency_id.name, None, o.partner_id, None, o.invoice_payment_ref, o.ref or o.name)"/>

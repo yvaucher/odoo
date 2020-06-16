@@ -101,8 +101,33 @@ body.l10n_ch_qr {
         top: 15mm;
     }
 
+    .receipt_indication_zone {
+        top: 10mm;
+    }
+
     .indication_zone {
         top: 10mm;
+    }
+
+    .receipt_amount_zone {
+        position: absolute;
+        top: 86mm;
+
+        .column {
+            margin-right: 5mm;
+            float: left;
+        }
+    }
+
+    .receipt_acceptance_point_zone {
+        position: relative;
+        top: 100mm;
+
+        .content {
+            float: right;
+            padding-right: 1em;
+        }
+
     }
 
     .amount_zone {
