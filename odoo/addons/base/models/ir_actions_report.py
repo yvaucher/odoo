@@ -499,9 +499,13 @@ class IrActionsReport(models.Model):
                 value = '0%s' % value
         try:
             width, height, humanreadable, quiet = int(width), int(height), bool(int(humanreadable)), bool(int(quiet))
+            bar_border = 4
+            if barcode_type == 'QR' and quiet:
+                bar_border = 0
+
             barcode = createBarcodeDrawing(
                 barcode_type, value=value, format='png', width=width, height=height,
-                humanReadable=humanreadable, quiet=quiet
+                humanReadable=humanreadable, quiet=quiet, barBorder=bar_border
             )
             return barcode.asString('png')
         except (ValueError, AttributeError):
