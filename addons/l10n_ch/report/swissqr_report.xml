@@ -91,8 +91,10 @@
                                 <span class="swissqr_text content" t-field="o.l10n_ch_isr_number_spaced"/><br/>
                             </t>
 
-                            <span class="swissqr_text title">Additional information</span><br/>
-                            <span class="swissqr_text content" t-field="o.ref"/><br/>
+                            <t t-if="o.ref">
+                              <span class="swissqr_text title">Additional information</span><br/>
+                              <span class="swissqr_text content" t-field="o.ref"/><br/>
+                            </t>
 
                             <span class="swissqr_text title">Payable by</span><br/>
                             <span class="swissqr_text content" t-field="o.partner_id.name"/><br/>
