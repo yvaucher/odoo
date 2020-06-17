@@ -127,11 +127,6 @@
                                 <span class="content" t-field="o.partner_id.city"/><br/>
                             </div>
 
-                            <div class="swissqr_text">
-                                <span class="title">Due date</span><br/>
-                                <span class="content" t-field="o.invoice_date_due"/><br/>
-                            </div>
-
                         </div>
                         <div id="amount_zone" class="swissqr_column_left amount_zone">
                             <div class="swissqr_text">
