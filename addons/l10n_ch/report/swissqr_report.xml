@@ -20,6 +20,7 @@
         </template>
 
         <template id="l10n_ch_swissqr_template">
+            <t t-set="o" t-value="o.with_context(lang=lang)"/>
             <t t-call="web.external_layout">
                 <!-- add class to body tag -->
                 <script>document.body.className += " l10n_ch_qr";</script>
@@ -27,7 +28,7 @@
                 <t t-set="formated_amount" t-value="('%.2f' % (o.amount_residual)).split(' ')[0].replace(',',' ')"/>
 
                 <div class="swissqr_title">
-                    <h1>QR-bill for invoice <t t-esc="invoice.name"/></h1>
+                    <h1>QR-bill for invoice <t t-esc="o.name"/></h1>
                 </div>
 
                 <div class="swissqr_content">
@@ -148,9 +149,9 @@
 
         <template id="l10n_ch.qr_report_main">
             <t t-call="web.html_container">
-                <t t-foreach="docs" t-as="invoice">
-                    <t t-set="o" t-value="invoice"/>
-                    <t t-call="l10n_ch.l10n_ch_swissqr_template"/>
+                <t t-foreach="docs" t-as="o">
+                    <t t-set="lang" t-value="o.partner_id.lang"/>
+                    <t t-call="l10n_ch.l10n_ch_swissqr_template" t-lang="lang"/>
                 </t>
             </t>
         </template>
