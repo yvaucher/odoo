@@ -107,15 +107,18 @@
                             </div>
 
                             <t t-if="o.invoice_partner_bank_id._is_qr_iban()">
-                                <span class="title">Reference</span><br/>
-                                <span class="content" t-esc="o.space_qrr_reference(o.invoice_payment_ref)"/><br/>
+                                <div class="swissqr_text">
+                                    <span class="title">Reference</span><br/>
+                                    <span class="content" t-esc="o.space_qrr_reference(o.invoice_payment_ref)"/><br/>
+                                </div>
                             </t>
 
                             <t t-set="additional_info" t-value="(o.ref or o.name if o.invoice_partner_bank_id._is_qr_iban() else o.invoice_payment_ref or o.ref or o.name)"/>
                             <t t-if="additional_info">
-                              <span class="swissqr_text title">Additional information</span><br/>
-                              <span class="swissqr_text content" t-esc="o.ref or o.name" t-if=""/>
-                              <br/>
+                                <div class="swissqr_text">
+                                    <span class="title">Additional information</span><br/>
+                                    <span class="content" t-esc="additional_info"/>
+                                </div>
                             </t>
 
                             <div class="swissqr_text">
