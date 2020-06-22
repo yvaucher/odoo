@@ -186,6 +186,9 @@ class ResPartnerBank(models.Model):
         QR-codes. They are formed like regular IBANs, but are actually something
         different.
         """
+        if not self:
+            return False
+
         self.ensure_one()
 
         iid_start_index = 4
